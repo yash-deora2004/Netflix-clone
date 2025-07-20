@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In - Netflix</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-bg">
+  <div class="login-header">
+    <a href="index.html"><img src="assets/Images/logo.svg" alt="Netflix Logo" class="logo login-logo"></a>
+  </div>
+  <main class="login-main">
+    <form class="login-form" id="login-form" autocomplete="off">
+      <h1 class="login-title">Sign In</h1>
+      <div class="login-error" id="login-error"></div>
+      <div class="login-field">
+        <input type="email" id="login-email" placeholder="Email or phone number" required>
+      </div>
+      <div class="login-field">
+        <input type="password" id="login-password" placeholder="Password" required minlength="4">
+      </div>
+      <button type="submit" class="btn btn-login">Sign In</button>
+      <div class="login-options">
+        <label class="remember-me"><input type="checkbox" id="remember-me"> Remember me</label>
+        <a href="#" class="login-help">Need help?</a>
+      </div>
+      <div class="login-signup">
+        <span>New to Netflix?</span> <a href="#">Sign up now</a>.
+      </div>
+      <small class="login-captcha">This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#">Learn more.</a></small>
+    </form>
+  </main>
+  <footer class="login-footer">
+    <div class="footer-content">
+      <p class="footer-top">Questions? Call <a href="tel:000-800-919-1694">000-800-919-1694</a></p>
+      <div class="footer-links-grid">
+        <a href="#">FAQ</a>
+        <a href="#">Help Centre</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy</a>
+        <a href="#">Cookie Preferences</a>
+        <a href="#">Corporate Information</a>
+      </div>
+      <div class="footer-lang-select">
+        <div class="lang-select-wrap">
+          <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg" class="globe-icon"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm0 18c-4.41 0-8-3.59-8-8 0-4.41 3.59-8 8-8 4.41 0 8 3.59 8 8 0 4.41-3.59 8-8 8Zm0-14c-3.31 0-6 2.69-6 6 0 3.31 2.69 6 6 6 3.31 0 6-2.69 6-6 0-3.31-2.69-6-6-6Zm0 10c-2.21 0-4-1.79-4-4 0-2.21 1.79-4 4-4 2.21 0 4 1.79 4 4 0 2.21-1.79 4-4 4Z" fill="#fff"/></svg>
+          <select class="lang-select">
+            <option>English</option>
+            <option>Hindi</option>
+          </select>
+        </div>
+      </div>
+      <p class="footer-copy">Netflix India</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html> 
